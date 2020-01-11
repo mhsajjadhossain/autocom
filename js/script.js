@@ -1,0 +1,1 @@
+$((function(){var dataBase=["Sajjad","A.B.M Shawon"],flag="";$(".btn").on("click",(function(){flag=$(".input").val(),dataBase.push(flag)})),$("#search").autocomplete({source:dataBase})}));
